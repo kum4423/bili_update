@@ -1,0 +1,101 @@
+$def with (ip, se, https)
+$code:
+    urlencode = __import__('webui').urlencode
+    match = __import__('re').match
+    def gets(s):
+        t=None
+        if s in se:t=se[s]
+        if s in ip:t=ip[s]
+        return t
+    def getfonturl(s):
+        if match(r'^https?:/{2}\w.+$', s):
+            return s
+        else:
+            return '/font?' + urlencode({'l':s})
+<!doctype html>
+<html>
+
+<head>
+    <title class="trans" trans="webui.index TITLE">bili WEB用户界面</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="js/jquery.js"></script>
+    <script src="js/rsa.js"></script>
+    <script src="js/base64.min.js"></script>
+    <script src="js/qrcode.min.js"></script>
+    <script src="https://static.geetest.com/static/tools/gt.js"></script>
+    <script src="https://static.geetest.com/static/js/fullpage.9.0.0.js"></script>
+    <script src="https://static.geetest.com/static/js/click.2.9.3.js"></script>
+    <script src="js/prototype.js"></script>
+    <script src="js/translatie.js"></script>
+    <script src="js/bililogin.js"></script>
+    <script src="js/footer.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+$ fontname=gets('uifont')
+$if fontname is not None:
+    <style>body, input, select {font-family: "$fontname";}</style>
+    $if 'uifontloc' in se:
+        <style>@font-face{font-family: "$fontname";src: local("$fontname"),url("$:getfonturl(se['uifontloc'])")}</style>
+</head>
+
+<body>
+    <div class="trans" style="display: none;" trans="bili.biliLogin OUTPUT1"></div>
+    <div id="main" class="abs">
+        <h1 class="trans" trans="webui.bililogin NEEDLOGIN">您需要登录bilibili账号才能继续使用此程序。</h1>
+        <div id="uap">
+            <div style="display: inline-block;">
+                <label class="trans" trans="webui.bililogin USERNAME">用户名：</label>
+                <input id="username" required>
+                <br/>
+                <label class="trans" trans="webui.settings PASS">密码：</label>
+                <input id="password" type="password" required>
+                <br/>
+                <label class="trans" trans="webui.bililogin CAPTCHA">验证码：</label>
+                <input id="captcha">
+            </div>
+            <img id="captimg">
+        </div>
+        <div id="qrc" style="display: none;">
+            <img id="qrcimg"><br/>
+            <label id="qrcl" class="trans" trans="webui.bililogin QRCEXPR" style="color:red;display: none;">二维码已过期，单击这里重新加载。</label>
+            <br/>
+            <label class="trans" trans="webui.bililogin BUGWARN">这种登录方式目前有BUG，部分内容可能不可用。</label>
+        </div>
+        <div id="phocode" style="display: none;">
+            <label class="trans" trans="webui.bililogin PHONEN">手机号：</label>
+            <select id="phoarea"></select>
+            <input id="phonum" type="number" required>
+            <br/>
+            <label class="trans" trans="webui.bililogin CAPTCHA">验证码：</label>
+            <input id="phocapt" required>
+            <button id="sendSMS" class="trans" trans="webui.bililogin SENDSMS">发送短信验证码</button>
+            <br/>
+            <label class="trans" trans="webui.bililogin BUGWARN">这种登录方式目前有BUG，部分内容可能不可用。</label>
+        </div>
+        <div id="uapweb" style="display: none;">
+            <label class="trans" trans="webui.bililogin USERNAME">用户名：</label>
+            <input id="usernamew" required>
+            <br/>
+            <label class="trans" trans="webui.settings PASS">密码：</label>
+            <input id="passwordw" type="password" required>
+            <br/>
+            <label class="trans" trans="webui.bililogin BUGWARN">这种登录方式目前有BUG，部分内容可能不可用。</label>
+        </div>
+        <div style="display: none;"><label id="uap1" class="trans switch" switch="0" switch2="uap" trans="webui.bililogin USEANDPA">使用用户名和密码登录</label><br/></div>
+        <div><label id="qrcl" class="trans switch" switch="1" switch2="qrc" trans="webui.bililogin QRSCAN">使用APP扫码登录</label><br/></div>
+        <div><label id="phol" class="trans switch" switch="2" switch2="phocode" trans="webui.bililogin USEPHONE">使用手机短信登录</label><br/></div>
+        <div><label id="uapwl" class="trans switch" switch="3" switch2="uapweb" trans="webui.bililogin USEANDPAW">使用用户名和密码登录（网页API）</label><br/></div>
+        $if not https:
+            <label class="trans" trans="webui.bililogin HTTPWARN" style="color:red;">虽然程序已经对用户名和密码进行了加密处理，但是依旧可能遭到中间人(MITM)攻击。如果在公网中使用，请启用HTTPS。</label><br/>
+        <button class="trans abs" id="submit" trans="webui.settings SUBMIT" disabled>提交</button>
+    </div>
+    <div class="footer">
+        <div><a href="/about" class="trans" trans="webui.index ABOUT">关于</a></div>
+        <div><a href="https://github.com/lifegpc/bili" class="trans" trans="webui.index SOURCE">源代码</a></div>
+        <div><a href="https://www.gnu.org/licenses/agpl-3.0-standalone.html" class="trans" trans="webui.index LICENSE">许可证</a></div>
+    </div>
+</body>
+
+</html>
