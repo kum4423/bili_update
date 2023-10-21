@@ -1,0 +1,327 @@
+# bili - setsettings.py Strings
+# (C) 2019-2020 lifegpc
+# This file is distributed under the same license as the bili package.
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Translators:
+# Kum4423, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: bili\n"
+"POT-Creation-Date: 2020-07-11 08:17:00+0000\n"
+"PO-Revision-Date: 2020-07-11 08:38+0000\n"
+"Last-Translator: Kum4423, 2021\n"
+"Language-Team: Japanese (https://www.transifex.com/lifegpc/teams/111556/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "INPUT1"
+msgid "Please input the number before \".\" to select the setting."
+msgstr "\".\" の前の数字を入力して設定を選択してください。"
+
+msgctxt "OUTPUT1"
+msgid ""
+"The \"x\" before the option indicates the currently selected setting. If "
+"nothing is entered, the current settings will be maintained."
+msgstr "オプションの前の \"x\" は、現在選択されている設定を示します。何も入力しない場合は、現在の設定が維持されます。"
+
+msgctxt "OUTPUT2"
+msgid "Delete the \"setting.json\" in the current folder can reset the settings."
+msgstr "フォルダ内の \"setting.json\" を削除することで設定をリセットすることができます。"
+
+msgctxt "NOTSET"
+msgid "Not set"
+msgstr "未設定"
+
+msgctxt "OUTPUT3"
+msgid "Please select a language for program (Now is <languagename>):"
+msgstr "プログラムの言語を選択してください（現在 <languagename>）:"
+
+msgctxt "INPUT2"
+msgid "Please input the language code before \":\" :"
+msgstr "言語コードを \":\" の前に入力してください:"
+
+msgctxt "INPUT3"
+msgid "Do you want filter barrage by default?"
+msgstr "デフォルトで弾幕フィルターが必要ですか？"
+
+msgctxt "DE"
+msgid "(Default)"
+msgstr "（デフォルト）"
+
+msgctxt "YES"
+msgid "Yes"
+msgstr "はい"
+
+msgctxt "NO"
+msgid "No"
+msgstr "いいえ"
+
+msgctxt "INPUT4"
+msgid ""
+"Do you want download with maximum quality by default(this will not ask for "
+"specific quality)?"
+msgstr "最高画質でダウンロードしますか？（これは特定の画質を要求するものではありません）"
+
+msgctxt "INPUT5"
+msgid "Do you want delete useless files after merge is complete?"
+msgstr "マージが完了した後、無駄なファイルを削除しますか？"
+
+msgctxt "INPUT6"
+msgid "Do you want to enable \"Continue Download\" function by default?"
+msgstr "\"ダウンロードを続ける\" 機能をデフォルトで有効にしますか？"
+
+msgctxt "INPUT7"
+msgid "Do you want to download again automatically after the download failed."
+msgstr "ダウンロードに失敗した後、自動的に再ダウンロードしますか？"
+
+msgctxt "INPUT8"
+msgid "Do you want disable the use of ffmpeg to merge videos?"
+msgstr "動画をマージするためにffmpegの使用を無効にしますか？"
+
+msgctxt "NTN"
+msgid "(Not set equals no in this setting.)"
+msgstr "(この設定では、設定していない場合は「いいえ」になります)"
+
+msgctxt "INPUT9"
+msgid "The preferred video coding when downloading with maximum quality :"
+msgstr "最高画質でダウンロードする時に好ましいビデオコーディング:"
+
+msgctxt "INPUT10"
+msgid "Do you want to download with aria2c?"
+msgstr "aria2cを使用してダウンロードしますか？"
+
+msgctxt "NTY"
+msgid "(Not set equals yes in this setting.)"
+msgstr "(この設定では、設定していない場合は「はい」になります)"
+
+msgctxt "INPUT11"
+msgid ""
+"The maximum number of connections to one server for each download while "
+"using aria2c (Possible Values:<value1>, Default:<value2>, Now:<value3>):"
+msgstr ""
+"aria2cを使用している間の各ダウンロードのための1つのサーバーへの最大接続数（可能:<value1>, デフォルト:<value2>, "
+"現在:<value3>）:"
+
+msgctxt "INPUT12"
+msgid "Please enter a number between <min> and <max>:"
+msgstr " <min>と <max> の間の数字を入力してください:"
+
+msgctxt "INPUT13"
+msgid ""
+"The maximum number of connections while downloading a file with aria2c "
+"(Possible Values:<value1>, Default:<value2>, Now:<value3>):"
+msgstr ""
+"aria2cでファイルをダウンロードしている間の最大接続数（可能:<value1>, デフォルト:<value2>, 現在:<value3>）:"
+
+msgctxt "INPUT14"
+msgid "Please enter a number greater than or equal to <min>:"
+msgstr "<min> に同等以上の数字を入力してください:"
+
+msgctxt "INPUT15"
+msgid ""
+"The minimum split file size while using aria2c (Unit: <value1>, Possible "
+"Values:<value2>, Default:<value3>, Now:<value4>):"
+msgstr ""
+"aria2cを使用している間の最小分割ファイルサイズ（単位: <value1>, 可能:<value2>, デフォルト:<value3>, "
+"現在:<value4>）:"
+
+msgctxt "INPUT16"
+msgid "Do you want to use the backup download links when using aria2c?"
+msgstr "aria2cを使用する際にバックアップダウンロードリンクを使用しますか？"
+
+msgctxt "INPUT17"
+msgid ""
+"The file allocation method while using aria2c (Default:<value1>, "
+"Now:<value2>):"
+msgstr "aria2cを使用しているときのファイルの割り当て方法（デフォルト:<value1>, 現在:<value2>）:"
+
+msgctxt "INPUT18"
+msgid "Do you want to put video/audio quailty information in the file name?"
+msgstr "ファイル名に動画/音声のクォリティ情報を入れますか？"
+
+msgctxt "INPUT19"
+msgid ""
+"Do you want to add video information to file forcibly (This will transcode "
+"the video and transcoding will not affect the video/audio quality.)?"
+msgstr "動画情報を強制的にファイルに追加しますか？（これは動画をトランスコードしますので、トランスコードしても動画/音声の品質には影響しません）"
+
+msgctxt "INPUT20"
+msgid ""
+"The maximum overall download speed in bytes/s when using aria2c (0 means "
+"unrestricted. You can append K or M (1K = 1024, 1M = 1024K). "
+"Default:<value1>, Now:<value2>):"
+msgstr ""
+"aria2c使用時の全体的なダウンロード速度の最大値をbytes/sで指定します（0 は無制限を意味します。 また K or M （1K = 1024,"
+" 1M = 1024K）を追加することができます。 デフォルト:<value1>, 現在:<value2>）:"
+
+msgctxt "INPUT21"
+msgid ""
+"Do you want to enable \"download all parts of each video automatically\" "
+"when you input Favorites, Channels, Uploaded Video page link?"
+msgstr ""
+"お気に入り、チャンネル、アップロードした動画のページのリンクを入力したときに、 \"各動画のすべての部分を自動的にダウンロードする\" "
+"を有効にしますか？"
+
+msgctxt "INPUT22"
+msgid ""
+"Do you want to set the number of days between crawls to automatic by default"
+" when downloading all barrage?"
+msgstr "すべての弾幕をダウンロードする際に、遡る期間の日数をデフォルトで自動に設定しますか？"
+
+msgctxt "INPUT23"
+msgid "Download folder location (Default:<value1>, Now:<value2>):"
+msgstr "ダウンロードフォルダの場所（デフォルト:<value1>, 現在:<value2>）:"
+
+msgctxt "INPUT24"
+msgid ""
+"If the Favorites page link does not specify the Favorite ID, return to the "
+"list of Favorites to select an ID instead of using default Favorite ID."
+msgstr ""
+"お気に入りページのリンクでお気に入りIDが指定されていない場合は、お気に入りリストに戻り、デフォルトのお気に入りIDではなくIDを選択します。"
+
+msgctxt "INPUT25"
+msgid ""
+"Do you want to disable the 20-character limit of description in file name "
+"while downloading Small Video?"
+msgstr "小さい動画のダウンロード中にファイル名の説明文の20文字制限を無効にしますか？"
+
+msgctxt "INPUT26"
+msgid ""
+"Do you want to trust environment variables when using \"requests\" package."
+msgstr "\"requests\" パッケージを使用する際に環境変数を信頼しますか？"
+
+msgctxt "INPUT27"
+msgid ""
+"Do you want to keep subtitle files when deleting useless files after "
+"merging?"
+msgstr "マージ後に無駄なファイルを削除するときに字幕ファイルを残しておきますか？"
+
+msgctxt "INPUT28"
+msgid ""
+"Do you want to disable asynchronous DNS when using aria2c (Disabling it can "
+"solve the \"Timeout while contacting DNS servers\" problem on Windows "
+"system.)?"
+msgstr ""
+"aria2cを使用しているときに非同期DNSを無効にしたいですか？（これを無効にすることで、Windowsシステム上の "
+"\"DNSサーバに接続している間にタイムアウトが発生する\" 問題を解決することができます）"
+
+msgctxt "INPUT29"
+msgid ""
+"Do you want to convert HTML to normal text while writing description of live"
+" record into file metadata?"
+msgstr "ライブレコードの説明文をファイルのメタデータに書きながら、HTMLを通常のテキストに変換したいですか？"
+
+msgctxt "INPUT30"
+msgid ""
+"Do you want to keep cover images when deleting useless files after merging?"
+msgstr "マージ後に無駄なファイルを削除するときにカバー画像を残しておきますか？"
+
+msgctxt "INPUT31"
+msgid "Do you want to add av/bv number etc. to the file name?"
+msgstr "ファイル名にav/vv番号などを追加しますか？"
+
+msgctxt "INPUT32"
+msgid ""
+"Do you want to enable multiple threadings when entering multiple numbers or "
+"links (This will make the output become a mess.)?"
+msgstr "複数の数字やリンクを入力する際に複数のスレッドを有効にしますか？（これにより出力がぐちゃぐちゃになる）"
+
+msgctxt "INPUT33"
+msgid "Do you want to disable checking for new versions?"
+msgstr "新しいバージョンのチェックを無効にしますか？"
+
+msgctxt "INPUT34"
+msgid ""
+"Do you want to save the subtitles file as an ASS(Advanced SubStation Alpha) "
+"file?"
+msgstr "字幕ファイルをASS(Advanced SubStation Alpha)ファイルとして保存しますか？"
+
+msgctxt "INPUT35"
+msgid ""
+"Do you want to create a separate directory for videos with multiply parts?"
+msgstr "乗算部分のある動画用に別のディレクトリを作成しますか？"
+
+msgctxt "INPUT36"
+msgid "Do you want to overwrite existing files by default?"
+msgstr "デフォルトで既存のファイルを上書きしますか？"
+
+msgctxt "INPUT37"
+msgid "The video format output from ffmpeg (Default:<value>, Now:<value2>):"
+msgstr "ffmpeg から出力されるビデオフォーマット (デフォルト:<value>, 現在: <value2>):"
+
+msgctxt "INPUT38"
+msgid ""
+"The time latter line of multiple lines which have same timestamps should be "
+"delayed when converting subtitles to LRC file (Default:<value>, "
+"Now:<value2>):"
+msgstr ""
+"字幕をLRCファイルに変換する際に、同じタイムスタンプを持つ複数行のうち、後者の行の時間を遅らせる必要があります。(デフォルト:<value> , "
+"現在: <value2>):"
+
+msgctxt "INPUT39"
+msgid "Do you want to not add language code to LRC file name?"
+msgstr "LRCファイル名に言語コードを追加しないようにしますか？"
+
+msgctxt "INPUT40"
+msgid "(Only works when there is only one subtitle available.)"
+msgstr "(字幕が1つしかない場合にのみ機能します)"
+
+msgctxt "INPUT41"
+msgid "Do you want to enable logging to file?"
+msgstr "ファイルへのログ記録を有効にしますか？"
+
+msgctxt "INPUT42"
+msgid ""
+"Do you want to enable standardize lyrics when downloading AU number's "
+"lyrics?"
+msgstr "au番号の歌詞をダウンロードする際に、歌詞の標準化を有効にしますか？"
+
+msgctxt "INPUT43"
+msgid ""
+"When downloading all barrages, do you want to ignore warning that current "
+"barrage's count is much less than the limitation?"
+msgstr "すべての弾幕をダウンロードするときに、現在の弾幕のカウントが制限よりもはるかに少ないという警告を無視しますか？"
+
+msgctxt "INPUT44"
+msgid ""
+"Do you want to open the last download file's location in windows explorer?"
+msgstr "最後にダウンロードしたファイルの場所をWindowsエクスプローラで開きますか？"
+
+msgctxt "INPUT45"
+msgid ""
+"Do you want to check certificate for HTTPS connection when downloading with "
+"aria2c? (If you get error about certificate, you can disable this. Warning: "
+"DISABLE THIS IS INSECURE.)"
+msgstr ""
+"aria2cでダウンロードする際に、HTTPS接続の証明書を確認しますか？(証明書に関するエラーが出た場合は、これを無効にすることができます。警告が出ます。これは安全ではありません。)"
+
+msgctxt "INPUT46"
+msgid ""
+"Do you want to generate NFO file?  (NFO file store video information that "
+"can be used in Plex.)"
+msgstr "NFOファイルを生成しますか？ （NFOファイルは、Plexで使用できる映像情報を格納しています）"
+
+msgctxt "INPUT47"
+msgid ""
+"The maximum number of download pages when downloading barrage from acfun (1 "
+"page contains 200 entries. 0 means no limit. Default: <value>, Now: "
+"<value2>): "
+msgstr ""
+"acfunから弾幕をダウンロードする際のダウンロードページの最大数（1ページに200件。 0は制限なし。 デフォルト<value>： , "
+"Now<value2>： ）"
+
+msgctxt "INPUT48"
+msgid ""
+"Do you want to enable internal m3u media playlist downloader for Niconico?"
+msgstr "niconico動画に内蔵されているm3uメディア・プレイリスト・ダウンローダーを有効にしますか？"
+
+msgctxt "INPUT49"
+msgid ""
+"The length limit for file name (0 means no any limit. Default: <value>, Now:"
+" <value2>): "
+msgstr "ファイル名の長さの制限（0は制限なし。 Default:<value> , Now:<value2> ）"

@@ -1,0 +1,103 @@
+# bili - webui/bililogin Strings
+# (C) 2019-2020 lifegpc
+# This file is distributed under the same license as the bili package.
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Translators:
+# Kum4423, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: bili\n"
+"POT-Creation-Date: 2020-09-206 11:03:00+0000\n"
+"PO-Revision-Date: 2020-09-06 13:43+0000\n"
+"Last-Translator: Kum4423, 2020\n"
+"Language-Team: Japanese (https://www.transifex.com/lifegpc/teams/111556/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NEEDLOGIN"
+msgid ""
+"You need to login in to your bilibili account if you want to continue using "
+"this program."
+msgstr "このプログラムを継続して使用するには、ビリビリのアカウントにログインする必要があります。"
+
+msgctxt "USERNAME"
+msgid "User name:"
+msgstr "ユーザー名:"
+
+msgctxt "CAPTCHA"
+msgid "Captcha:"
+msgstr "認証:"
+
+msgctxt "NEEDCAP"
+msgid "Captcha is required to login in."
+msgstr "ログインするための認証が必要です。"
+
+msgctxt "SERISBUS"
+msgid "Service is busy."
+msgstr "現在アクセスが集中しています。"
+
+msgctxt "INCOUSPA"
+msgid "Incorrect user name or password."
+msgstr "ユーザー名もしくはパスワードが間違っています。"
+
+msgctxt "HTTPWARN"
+msgid ""
+"Although the program has encrypted the user name and password, it is still "
+"subject to man-in-the-middle(MITM) attacks. If you use this in the public "
+"network, please enable HTTPS."
+msgstr ""
+"このプログラムはユーザー名とパスワードを暗号化していますが、man-in-the-"
+"middle(MITM)攻撃を受ける可能性があります。パブリックネットワークで使用する場合は、HTTPSを有効にしてください。"
+
+msgctxt "QRSCAN"
+msgid "Use APP to scan QR Code to login in"
+msgstr "APPを使ってQRコードをスキャンしてログインする"
+
+msgctxt "USEANDPA"
+msgid "Use user name and password to login in"
+msgstr "ユーザー名とパスワードを使用してログインする"
+
+msgctxt "QRCEXPR"
+msgid "The QR code has expired, click here to reload."
+msgstr "QRコードの有効期限が切れていますので、こちらをクリックしてリロードしてください。"
+
+msgctxt "USEPHONE"
+msgid "Login in with SMS"
+msgstr "SMSでログインする"
+
+msgctxt "PHONEN"
+msgid "Phone number:"
+msgstr "電話番号:"
+
+msgctxt "SENDSMS"
+msgid "Send captcha code by SMS"
+msgstr "SMSでキャプチャコードを送信"
+
+msgctxt "INVALIDCPN"
+msgid "This is an invalid China phone number."
+msgstr "無効な中国の電話番号です。"
+
+msgctxt "MUSTCAPT"
+msgid "You must complete the captcha to continue."
+msgstr "続行するには、キャプチャを完了する必要があります。"
+
+msgctxt "CAPERROR"
+msgid "An error occured:"
+msgstr "エラーが発生しました:"
+
+msgctxt "SMSSEND"
+msgid "SMS is already send."
+msgstr "SMSは既に送信済みです。"
+
+msgctxt "USEANDPAW"
+msgid "Use user name and password to login in (Web API)"
+msgstr "ユーザー名とパスワードを使ってログインする (Web API)"
+
+msgctxt "BUGWARN"
+msgid "This login method now have bugs, some contents may not available."
+msgstr "このログイン方法は現在バグがあり、一部のコンテンツが利用できない場合があります。"
