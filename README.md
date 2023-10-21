@@ -293,6 +293,12 @@ You can export this file from bilibili WEB player.
 - ```avfilter-***.dll```
 - ```avformat-***.dll```
 - ```avutil-***.dll```
+- ```ffmpeg```
+- ```ffplay```
+- ```ffprobe```
+- ```postproc-***.dll```
+- ```swresample-***.dll```
+- ```swscale-***.dll```
 
 [Geckodriver](https://github.com/mozilla/geckodriver)
 - ```geckodriver```
