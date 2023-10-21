@@ -282,9 +282,17 @@ You can export this file from bilibili WEB player.
 
 ## Required External Files
 [aria2](https://github.com/aria2/aria2)
+- ```aria2c```
 
 [ChromeDriver](https://chromedriver.chromium.org/home)
+- ```chromedriver```
 
 [FFmpeg](https://ffmpeg.org/download.html)  
+- ```avcodec-***.dll```
+- ```avdevice-***.dll```
+- ```avfilter-***.dll```
+- ```avformat-***.dll```
+- ```avutil-***.dll```
 
 [Geckodriver](https://github.com/mozilla/geckodriver)
+- ```geckodriver```
