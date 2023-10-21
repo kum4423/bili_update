@@ -1,4 +1,4 @@
-[英語(English)](README.md) [日本語(Japan)](README.ja.md)
+[英语(English)](README.md) [日本語(Japan)](README.ja.md)
 # Rust 重构版开发中
 [Rust重构版](https://github.com/lifegpc/bili-rust)
 # BiliBili 弹幕/视频下载软件
