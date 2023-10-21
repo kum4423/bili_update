@@ -279,3 +279,12 @@ This file including the section information for WEB User Interface if you enable
 ### tv.bilibili.player.xml
 This file including the filter rules for barrages.  
 You can export this file from bilibili WEB player.
+
+## Required External Files
+[aria2](https://github.com/aria2/aria2)
+
+[ChromeDriver](https://chromedriver.chromium.org/home)
+
+[FFmpeg](https://ffmpeg.org/download.html)  
+
+[Geckodriver](https://github.com/mozilla/geckodriver)
