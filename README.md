@@ -1,6 +1,6 @@
 ## UPDATE 2023.10.21
 
-[中文(中国)](README.md) [日本語](README.ja.md)
+[中文(China)](README.CN.md) [日本語(Japan)](README.ja.md)
 # BiliBili Barrage/Video Downloader
 - [BiliBili Barrage/Video Downloader](#bilibili-barragevideo-downloader)
     * [Introduction](#introduction)
