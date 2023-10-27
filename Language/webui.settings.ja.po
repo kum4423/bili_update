@@ -5,14 +5,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 # Translators:
 # 1 q <g1710431395@gmail.com>, 2020
-# Kum4423, 2020
+# kum4423, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: bili\n"
 "POT-Creation-Date: 2020-08-24 12:07:00+0000\n"
 "PO-Revision-Date: 2020-08-24 15:02+0000\n"
-"Last-Translator: Kum4423, 2020\n"
+"Last-Translator: kum4423, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/lifegpc/teams/111556/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,27 +26,27 @@ msgstr "WEBユーザーインターフェースの設定"
 
 msgctxt "WEBUILAN"
 msgid "WEB User Interface language:"
-msgstr "WEBユーザーインターフェースの言語:"
+msgstr "WEBユーザーインターフェースの言語 :"
 
 msgctxt "IPADDR"
 msgid "The IP address:"
-msgstr "IPアドレス:"
+msgstr "IPアドレス :"
 
 msgctxt "IPPORT"
 msgid "The port of IP address:"
-msgstr "IPアドレスのポート:"
+msgstr "IPアドレスのポート :"
 
 msgctxt "SSLCPATH"
 msgid "The path to the SSL certificate:"
-msgstr "SSL証明書のパス:"
+msgstr "SSL証明書のパス :"
 
 msgctxt "SSLPPATH"
 msgid "The path to the SSL private key:"
-msgstr "SSL秘密鍵のパス:"
+msgstr "SSL秘密鍵のパス :"
 
 msgctxt "SSLCCPATH"
 msgid "The path to the SSL certificate chain:"
-msgstr "SSL証明書チェーンへのパス:"
+msgstr "SSL証明書チェーンへのパス :"
 
 msgctxt "SUBMIT"
 msgid "Submit"
@@ -54,15 +54,15 @@ msgstr "送信"
 
 msgctxt "SUBOK"
 msgid "Save successfully."
-msgstr "保存に成功しました。"
+msgstr "保存に成功しました"
 
 msgctxt "SUBFA"
 msgid "Failed to save settings."
-msgstr "設定の保存に失敗しました。"
+msgstr "設定の保存に失敗しました"
 
 msgctxt "INVALIP"
 msgid "\"<value>\" is not an invalid IP address."
-msgstr "\"<value>\" は無効なIPアドレスではありません。"
+msgstr "\"<value>\" は無効なIPアドレスではありません"
 
 msgctxt "ENPASS"
 msgid "Enable password verification"
@@ -74,7 +74,7 @@ msgstr "パスワード"
 
 msgctxt "UIFONT"
 msgid "User interface font name:"
-msgstr "ユーザーインターフェイスのフォント名:"
+msgstr "ユーザーインターフェイスのフォント名 :"
 
 msgctxt "MAIN"
 msgid "Main Program Settings"
@@ -84,11 +84,11 @@ msgctxt "MAINPS"
 msgid ""
 "PS. If the settings on this page are successfully saved, the origin file "
 "\"settings.json\" will be overwriten."
-msgstr "追伸. このページの設定が正常に保存されると、元のファイル \"settings.json\" が上書きされます。"
+msgstr "追伸 このページの設定が正常に保存されると、元のファイル \"settings.json\" が上書きされます"
 
 msgctxt "MAINLAN"
 msgid "Program language:"
-msgstr "プログラム言語:"
+msgstr "プログラム言語 :"
 
 msgctxt "MAINFB"
 msgid "Filter barrage by default:"
@@ -114,67 +114,67 @@ msgstr "無効"
 
 msgctxt "MAINAD"
 msgid "Delete useless files after merge is complete:"
-msgstr "マージ完了後、無駄なファイルを削除します:"
+msgstr "マージ完了後、無駄なファイルを削除します :"
 
 msgctxt "MAINCD"
 msgid "Enable \"Continue Download\" function by default:"
-msgstr "デフォルトで「ダウンロードを続ける」機能を有効にします:"
+msgstr "デフォルトで「ダウンロードを続ける」機能を有効にします :"
 
 msgctxt "MAINRD"
 msgid "Download again automatically after the download failed:"
-msgstr "ダウンロードに失敗した後、自動的に再ダウンロード:"
+msgstr "ダウンロードに失敗した後、自動的に再ダウンロード :"
 
 msgctxt "MAINSV"
 msgid "Put video/audio quality information in the file name."
-msgstr "ファイル名に動画・音声の品質情報を入れてください。"
+msgstr "ファイル名に動画・音声の品質情報を入れてください"
 
 msgctxt "MAINMA"
 msgid ""
 "Add video information to file forcibly. (This will transcode the video and "
 "transcoding will not affect the video/audio quality.)"
-msgstr "動画情報を強制的にファイルに追加します。(これで動画はトランスコードされ、トランスコードしても動画・音声の品質には影響しません)"
+msgstr "動画情報を強制的にファイルに追加します(これで動画はトランスコードされ、トランスコードしても動画・音声の品質には影響しません)"
 
 msgctxt "MAINDA"
 msgid ""
 "\"Download all parts of each video automatically\" when you input Favorites,"
 " Channels, Uploaded Video page link:"
-msgstr "お気に入り、チャンネル、アップロードした動画ページのリンクを入力すると、\"各動画の全部分を自動的にダウンロード \"します:"
+msgstr "お気に入り、チャンネル、アップロードした動画ページのリンクを入力すると、\"各動画の全部分を自動的にダウンロード \"します :"
 
 msgctxt "MAINJT"
 msgid ""
 "Set the number of days between crawls to automatic by default when "
 "downloading all barrage."
-msgstr "すべての弾幕をダウンロードする際に、クロール間の日数をデフォルトで自動に設定します。"
+msgstr "すべての弾幕をダウンロードする際に、クロール間の日数をデフォルトで自動に設定します"
 
 msgctxt "MAINO"
 msgid "Download folder location:"
-msgstr "ダウンロードフォルダの場所:"
+msgstr "ダウンロードフォルダの場所 :"
 
 msgctxt "FONTPATH"
 msgid ""
 "The path to the font file (The font format should be one of "
 "TTF/OTF/WOFF/WOFF2.):"
-msgstr "フォントファイルのパス（フォント形式はTTF/OTF/WOFF/WOFF2のいずれかである必要があります。）"
+msgstr "フォントファイルのパス（フォント形式はTTF/OTF/WOFF/WOFF2のいずれかである必要があります）"
 
 msgctxt "LENPASS"
 msgid "Enable password verification for pages beginning with \"<part>\"."
-msgstr "\"<part>\" で始まるページのパスワード認証を有効にします。"
+msgstr "\"<part>\" で始まるページのパスワード認証を有効にします"
 
 msgctxt "OWFIBD"
 msgid "Overwrite existing files by default:"
-msgstr "デフォルトで既存のファイルを上書きする。"
+msgstr "デフォルトで既存のファイルを上書きする"
 
 msgctxt "SUBINFO"
 msgid "PS. You may need to restart the web server to apply the new settings."
-msgstr "追伸。新しい設定を適用するには、Webサーバーを再起動する必要があるかもしれません。"
+msgstr "追伸 新しい設定を適用するには、Webサーバーを再起動する必要があるかもしれません"
 
 msgctxt "VIDEOFMT"
 msgid "The video format output from ffmpeg (Default:<value>):"
-msgstr "ffmpeg から出力されるビデオフォーマット (デフォルト:<value>):"
+msgstr "ffmpeg から出力されるビデオフォーマット (デフォルト:<value>) :"
 
 msgctxt "TIMELMD"
 msgid ""
 "The time latter line of multiple lines which have same timestamps should be "
 "delayed when converting subtitles to LRC file (Default:<value>):"
 msgstr ""
-"字幕をLRCファイルに変換する際に、同じタイムスタンプを持つ複数行のうち、後者の行の時間を遅らせる必要があります。(デフォルト:<value>):"
+"字幕をLRCファイルに変換する際に、同じタイムスタンプを持つ複数行のうち、後者の行の時間を遅らせる必要があります(デフォルト:<value>) :"
