@@ -4,7 +4,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 # Translators:
-# Kum4423, 2021
+# kum4423, 2023
 # lifegpc <g1710431395@gmail.com>, 2021
 # 
 msgid ""
@@ -22,11 +22,11 @@ msgstr ""
 
 msgctxt "OUTPUT1"
 msgid "Start downloading file <i> of <count> files."
-msgstr "<count> ファイルの <i> のダウンロードを開始します。"
+msgstr "<count> ファイルの <i> のダウンロードを開始します"
 
 msgctxt "OUTPUT2"
 msgid "Start downloading."
-msgstr "ダウンロードを開始します。"
+msgstr "ダウンロードを開始します"
 
 msgctxt "OUTPUT3"
 msgid ""
@@ -34,16 +34,16 @@ msgid ""
 "of connections to one server: <value2>, The minimum split file size: "
 "<value3>M, The file allocation method: <value4><maxspeed>"
 msgstr ""
-"ファイルへの最大接続数: <value1>, \n"
-"1つのサーバーへの最大接続数: <value2>, \n"
-"最小分割ファイルサイズ: <value3>M, \n"
-"ファイルの割り当て方法: <value4><maxspeed>"
+"ファイルへの最大接続数 : <value1>, \n"
+"1つのサーバーへの最大接続数 : <value2>, \n"
+"最小分割ファイルサイズ : <value3>M, \n"
+"ファイルの割り当て方法 : <value4><maxspeed>"
 
 msgctxt "OUTPUT4"
 msgid ", The maximum overall download speed in bytes/s: <value>"
 msgstr ""
 ", \n"
-"最大全体のダウンロード速度をバイト/秒で表示します: <value>"
+"最大全体のダウンロード速度をバイト/秒で表示します : <value>"
 
 msgctxt "OUTPUT5"
 msgid "(Because the aria2 file is found, it is recommended to overwrite.)"
@@ -51,7 +51,7 @@ msgstr "（aria2ファイルがあるので、上書きすることをお勧め�
 
 msgctxt "OUTPUT6"
 msgid "The aria2 file is not found, skip download."
-msgstr "aria2ファイルが見つかりません、ダウンロードをスキップします。"
+msgstr "aria2ファイルが見つかりません、ダウンロードをスキップします"
 
 msgctxt "INPUT1"
 msgid "The file \"<filename>\" already exists, do you want to overwrite it?"
@@ -59,39 +59,39 @@ msgstr "ファイル \"<filename>\" は既に存在していますが、上書�
 
 msgctxt "OUTPUT7"
 msgid "Failed to delete the original file, skip download."
-msgstr "元のファイルの削除に失敗し、ダウンロードをスキップしました。"
+msgstr "元のファイルの削除に失敗し、ダウンロードをスキップしました"
 
 msgctxt "ERROR1"
 msgid "Unable to create folder \"<dirname>\"."
-msgstr "フォルダ \"<dirname>\" の作成ができません。"
+msgstr "フォルダ \"<dirname>\" の作成ができません"
 
 msgctxt "ERROR2"
 msgid "An error occurred when reading the file: \"cookies.json\"."
-msgstr "ファイルの読み込み時にエラーが発生しました: \"cookies.json\"."
+msgstr "ファイルの読み込み時にエラーが発生しました : \"cookies.json\""
 
 msgctxt "OUTPUT8"
 msgid "Part <number> :"
-msgstr "Part <number> :"
+msgstr "Part <number> : "
 
 msgctxt "OUTPUT9"
 msgid "Video quality:"
-msgstr "ビデオ画質:"
+msgstr "ビデオ画質 :"
 
 msgctxt "OUTPUT10"
 msgid "File size:"
-msgstr "ファイルサイズ:"
+msgstr "ファイルサイズ :"
 
 msgctxt "INPUT2"
 msgid "Please select video quality :"
-msgstr "ビデオ画質を選択してください:"
+msgstr "ビデオ画質を選択してください :"
 
 msgctxt "ERROR3"
 msgid "Please use \"-v <id>\" to select the video quality."
-msgstr "ビデオ画質を選択するには \"-v <id>\" を使用してください。"
+msgstr "ビデオ画質を選択するには \"-v <id>\" を使用してください"
 
 msgctxt "OUTPUT11"
 msgid "You have selected the video quality: <videoquality>"
-msgstr "ビデオ画質を選択しました: <videoquality>"
+msgstr "ビデオ画質を選択しました : <videoquality>"
 
 msgctxt "OUTPUT12"
 msgid "<number> files in total."
@@ -101,26 +101,26 @@ msgctxt "ERROR4"
 msgid ""
 "Bad/unrecognized option was given or unexpected option argument was given "
 "when calling aria2c."
-msgstr "aria2cを呼び出す際に、不正な/認識されていないオプションが与えられたか、もしくは予期しないオプション引数が与えられました。"
+msgstr "aria2cを呼び出す際に、不正な/認識されていないオプションが与えられたか、もしくは予期しないオプション引数が与えられました"
 
 msgctxt "ERROR5"
 msgid ""
 "Please create an issue on <https://github.com/lifegpc/bili/issues> to "
 "describe the problem.(Please use English or Chinese.)"
 msgstr ""
-"<https://github.com/lifegpc/bili/issues>にトピックを作成して、問題点を記述してください。（英語または中国語でお願いします）"
+"<https://github.com/lifegpc/bili/issues>にトピックを作成して、問題点を記述してください（英語または中国語でお願いします）"
 
 msgctxt "INPUT3"
 msgid "Failed to download the file. Do you want to download again?"
-msgstr "ファイルのダウンロードに失敗しました。もう一度ダウンロードしますか？"
+msgstr "ファイルのダウンロードに失敗しました、もう一度ダウンロードしますか？"
 
 msgctxt "OUTPUT13"
 msgid "Use ffmpeg to merge files."
-msgstr "ファイルをマージするには ffmpeg を使用します。"
+msgstr "ファイルをマージするにはffmpegを使用します"
 
 msgctxt "OUTPUT14"
 msgid "Merge complete."
-msgstr "マージが完了しました。"
+msgstr "マージが完了しました"
 
 msgctxt "INPUT4"
 msgid "Do you want to delete useless files?"
@@ -128,42 +128,43 @@ msgstr "無駄なファイルを削除しますか？"
 
 msgctxt "OUTPUT15"
 msgid "Video track:"
-msgstr "ビデオトラック:"
+msgstr "ビデオトラック :"
 
 msgctxt "OUTPUT16"
 msgid "Audio track:"
-msgstr "オーディオトラック:"
+msgstr "オーディオトラック :"
 
 msgctxt "INPUT5"
 msgid "Please select audio quality :"
-msgstr "音質を選択してください:"
+msgstr "音質を選択してください :"
 
 msgctxt "ERROR6"
 msgid "Please use \"-a <id>\" to select the audio quality."
-msgstr "音質を選択するには \"-a <id>\" を使用してください。"
+msgstr "音質を選択するには \"-a <id>\" を使用してください"
 
 msgctxt "OUTPUT17"
 msgid "You have selected the audio quality: <audioquality>"
-msgstr "音質を選択しました: <audioquality>"
+msgstr "音質を選択しました : <audioquality>"
 
 msgctxt "OUTPUT18"
 msgid "There are no subtitles in Part <number>."
-msgstr "Part <number> には字幕がありません。"
+msgstr "Part <number> には字幕がありません"
 
 msgctxt "ERROR7"
 msgid "This video has regional restrictions. Please use proxy."
-msgstr "この動画には地域制限があります。プロキシをご利用ください。"
+msgstr "この動画には地域制限があります、プロキシをご利用ください"
 
 msgctxt "ERROR8"
 msgid ""
 "This video has multiple video quality but this program not support it. You "
 "can continue to download with default video quality."
 msgstr ""
-"このビデオは複数の解像度を持っていますが、このプログラムはそれをサポートしていません。あなたは、デフォルトビデオの画質でダウンロードを続けることができます。"
+"このビデオは複数の解像度を持っていますが、このプログラムはそれをサポートしていません"
+"あなたは、デフォルトビデオの画質でダウンロードを続けることができます"
 
 msgctxt "INPUT6"
 msgid "Please press \"Enter\" to continue downloading."
-msgstr "ダウンロードを続けるには \"Enter\" を押してください。"
+msgstr "ダウンロードを続けるには \"Enter\" を押してください"
 
 msgctxt "OUTPUT19"
 msgid ""
@@ -173,49 +174,48 @@ msgstr "（ファイルサイズが推定サイズと一致しないため、上
 
 msgctxt "OUTPUT20"
 msgid "The file size is equal to the estimated size, skip download."
-msgstr "ファイルサイズは推定サイズと同じなので、ダウンロードをスキップします。"
+msgstr "ファイルサイズは推定サイズと同じなので、ダウンロードをスキップします"
 
 msgctxt "ERROR9"
 msgid "The file size is not equal to the estimated size."
-msgstr "ファイルサイズが推定サイズと一致しません。"
+msgstr "ファイルサイズが推定サイズと一致しません"
 
 msgctxt "OUTPUT21"
 msgid "Unable to get file size. Try to get again ..."
-msgstr "ファイルサイズを取得できません。もう一度お試しください。"
+msgstr "ファイルサイズを取得できません、もう一度お試しください"
 
 msgctxt "OUTPUT22"
 msgid "Please use \"start.py\"."
-msgstr "\"start.py\" を使用してください。"
+msgstr "\"start.py\" を使用してください"
 
 msgctxt "OUTPUT23"
 msgid "Cover image \"<filename>\" was downloaded complete."
-msgstr "カバー画像 \"<filename>\" のダウンロードが完了しました。"
+msgstr "カバー画像 \"<filename>\" のダウンロードが完了しました"
 
 msgctxt "OUTPUT24"
 msgid "An error occurred when downloading cover image:"
-msgstr "カバー画像のダウンロード時にエラーが発生しました。"
+msgstr "カバー画像のダウンロード時にエラーが発生しました"
 
 msgctxt "NOT_GET_QUA"
 msgid "Unable to get play URL for quality <quality>."
-msgstr "<quality>品質のための再生URLを取得することができません。"
+msgstr "<quality> 品質のための再生URLを取得することができません"
 
 msgctxt "ALL_URL_COUNT"
 msgid "(<number> URLs are available.)"
-msgstr "(<number> URLが利用可能です。)"
+msgstr "(<number> URLが利用可能です)"
 
 msgctxt "URL_SELECTED"
 msgid "You have selected the URL<index>."
-msgstr "URL<index>を選択しました。"
+msgstr "URL <index> を選択しました"
 
 msgctxt "INDEX_OUT_OF_RANGE"
 msgid ""
-"The index you specified is out of range. The index should be between 0 and "
-"<max>."
-msgstr "指定したインデックスは範囲外です。インデックスは 0 と<max>から。"
+"The index you specified is out of range. The index should be between 0 and <max>."
+msgstr "指定したインデックスは範囲外です、インデックスは 0 と<max>から"
 
 msgctxt "NO_QUA_TRANS"
 msgid "There is no translated text for \"<value>\"."
-msgstr "\"<value>\" の訳文はありません。"
+msgstr "\"<value>\" の訳文はありません"
 
 msgctxt "超清 4K"
 msgid "UHD 4K"
@@ -271,19 +271,19 @@ msgstr "SD"
 
 msgctxt "NOT_SUP_DURL"
 msgid "Do not support to download audio only for durl streams."
-msgstr "durlストリームの音声のみのダウンロードには対応していません。"
+msgstr "durlストリームの音声のみのダウンロードには対応していません"
 
 msgctxt "NO_AUDIO"
 msgid "There is no audio in this video."
-msgstr "この動画には音声はありません。"
+msgstr "この動画には音声はありません"
 
 msgctxt "CONV_M4S_TO_M4A"
 msgid "Use ffmpeg to convert the m4s file to the m4a file."
-msgstr "ffmpegを使ってm4sファイルをm4aファイルに変換します。"
+msgstr "ffmpegを使ってm4sファイルをm4aファイルに変換します"
 
 msgctxt "COM_CONV"
 msgid "Convert completed."
-msgstr "変換が完了しました。"
+msgstr "変換が完了しました"
 
 msgctxt "真彩 HDR"
 msgid "HDR"
@@ -294,31 +294,32 @@ msgid ""
 "This audio has multiple audio qualities but this program not support it. You"
 " can continue to download with default audio quality."
 msgstr ""
-"このオーディオは複数のオーディオ品質を持っていますが、このプログラムはそれをサポートしていません。デフォルトの音質でダウンロードを続けることができます。"
+"このオーディオは複数のオーディオ品質を持っていますが、このプログラムはそれをサポートしていません”
+”デフォルトの音質でダウンロードを続けることができます"
 
 msgctxt "USEFROMV"
 msgid "Found associated video, try to get audio play url from video page."
-msgstr "関連するビデオが見つかりました、ビデオページからオーディオ再生のURLを取得しようとします。"
+msgstr "関連するビデオが見つかりました、ビデオページからオーディオ再生のURLを取得しようとします"
 
 msgctxt "ADDMETA"
 msgid "Use ffmpeg to add metadata to the m4a file."
-msgstr "m4aファイルにメタデータを追加するには、ffmpegを使用します。"
+msgstr "m4aファイルにメタデータを追加するには、ffmpegを使用します"
 
 msgctxt "ADDMECOM"
 msgid "Add completed."
-msgstr "追加完了。"
+msgstr "追加完了"
 
 msgctxt "LRCCOM"
 msgid "Lyric \"<filename>\" download completed."
-msgstr "歌詞 \"<filename>\" ダウンロード完了。"
+msgstr "歌詞 \"<filename>\" ダウンロード完了"
 
 msgctxt "LRCERR"
 msgid "An error occurred when downloading lyric: "
-msgstr "歌詞をダウンロードする際にエラーが発生しました: "
+msgstr "歌詞をダウンロードする際にエラーが発生しました　: "
 
 msgctxt "USEFROMV2"
 msgid "Found associated video, try to get lyrics(subtitles) from video page."
-msgstr "関連する動画が見つかりましたが、動画ページから歌詞(字幕)を取得してみてください。"
+msgstr "関連する動画が見つかりましたが、動画ページから歌詞(字幕)を取得してみてください"
 
 msgctxt "FILLRC"
 msgid ""
@@ -327,11 +328,11 @@ msgid ""
 "<https://github.com/lifegpc/bili/issues>. (Please use Chinese or English to "
 "describe the bug.)"
 msgstr ""
-"<count>エントリを標準化しました。LRCファイルが動作しない場合は、設定で歌詞の標準化を無効にして、<https://github.com/lifegpc/bili/issues>までバグ報告をお願いします。(バグの報告は中国語または英語でお願いします。)"
+"<count>エントリを標準化しました、LRCファイルが動作しない場合は、設定で歌詞の標準化を無効にして <https://github.com/lifegpc/bili/issues> までバグ報告をお願いします(バグの報告は中国語または英語でお願いします)"
 
 msgctxt "ALBTAGS"
 msgid "Album tags: "
-msgstr "アルバムタグ: "
+msgstr "アルバムタグ : "
 
 msgctxt "AU流畅"
 msgid "Smooth quality"
@@ -351,15 +352,15 @@ msgstr "オリジナル画質"
 
 msgctxt "FFMPEG"
 msgid "Can not find ffmpeg. ffmpeg is required to download this video."
-msgstr "ffmpegが見つかりません。このビデオをダウンロードするには、ffmpegが必要です。"
+msgstr "ffmpegが見つかりません、このビデオをダウンロードするには、ffmpegが必要です"
 
 msgctxt "NEEDPAY"
 msgid "You need to purchase this video to access it."
-msgstr "このビデオにアクセスするには、このビデオを購入する必要があります。"
+msgstr "このビデオにアクセスするには、このビデオを購入する必要があります"
 
 msgctxt "TIMEOUT"
 msgid "The token was expired. Try to fetch new webpage to get new token……"
-msgstr "トークンの有効期限が切れています。新しいトークンを取得するために、新しいウェブページを取得してみてください......"
+msgstr "トークンの有効期限が切れています、新しいトークンを取得するために、新しいウェブページを取得してみてください......"
 
 msgctxt "低画質"
 msgid "Low video quality"
