@@ -1,4 +1,4 @@
-## UPDATE 2023.10.21
+## UPDATE 2023.10.28
 
 [中文(China)](README.CN.md) [日本語(Japan)](README.ja.md)
 # BiliBili Barrage/Video Downloader
