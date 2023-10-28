@@ -13,6 +13,9 @@
         + [webui.json](#webuijson)
         + [sections.json](#sectionsjson)
         + [tv.bilibili.player.xml](#tvbilibiliplayerxml)
+    * [Required External Files](#Required-External-Files)
+
+
 ## Introduction
 This program is written in Python (Python3), use some Python libraries and ChromeDriver. (When using ChromeDriver, it is more convenient to log in or pass captcha. The program's main features will not be affected if without ChromeDriver.)  
 The program now supports the command line.  
