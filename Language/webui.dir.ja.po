@@ -4,7 +4,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 # Translators:
-# kum4423, 2023
+# Kum4423, 2020
 # 1 q <g1710431395@gmail.com>, 2020
 # 
 msgid ""
@@ -34,7 +34,7 @@ msgstr "ファイルサイズ"
 
 msgctxt "LASTMODI"
 msgid "Last modified time"
-msgstr "最終更新時間"
+msgstr "最新更新時間"
 
 msgctxt "INDEXOF"
 msgid "Index of <dir>"
